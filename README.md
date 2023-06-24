@@ -1,32 +1,39 @@
 # WeatherForcast
 
-Set up your Python environment:
+Set up your Python environment:<br>
+<br>
+Create a new directory for your project.<br>
 
-Create a new directory for your project.
-Open a terminal or command prompt and navigate to the project directory.
-Create a virtual environment by running the following command:
+Command : python3 -m venv venv<br>
 
-Copy command:<br>
-
-python3 -m venv venv
+copy this command in the terminal<br>
 
 Activate the virtual environment:<br>
+
 On macOS/Linux:<br>
-bash<br>
-Copy command  : <br>
-source venv/bin/activate
-<br>
-On Windows:<br>
-Copy command : <br>
-venv\Scripts\activate
-<br> 
+
+command : source venv/bin/activate<br>
+
+on Windows <br>
+
+command : <br>
+venv\Scripts\activate<br>
+
+
+
 Install the necessary packages:<br>
-Run the following command to install the requests library, which we'll use for making API requests: <br>
-Copy command : <br>
 
-pip install requests
+Run the following command to install the requests library, which we'll use for making API requests:<br>
 
-Run this command on the terminal:
+command : <br>
+pip install requests<br>
 
-python weather_forecast.py
+
+After that you will get weather_forcast.py file in the repositry<br>
+<br>
+lastly run the command :<br>
+
+python weather_forecast.py<br>
+
+
 
