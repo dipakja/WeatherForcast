@@ -1,7 +1,7 @@
 import requests
 import json
 
-API_KEY = 'c00600c8e3d8d1bcaa1c396e27d30c76'
+API_KEY = '476e39bf5163f0297007145076c69cd2'
 API_URL = 'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'
 def get_weather_forecast(city):
     url = API_URL.format(city=city, api_key=API_KEY)
